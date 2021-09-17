@@ -1,0 +1,94 @@
+html, :root, body, *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+  text-align: center;
+  width: 100%;
+  background-color: hsl(216, 63%, 42%);
+}
+
+header > h1 {
+  color: #FCF7F8;
+  padding: 16px 0;
+}
+
+main > section{
+  margin: 8px 0;
+}
+
+#register {
+  border: 1px solid black;
+}
+
+#register > h3 {
+  text-align: center;
+}
+
+#register > form   {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#register > form > div:not(:last-child){
+  flex: 1;
+  padding-left: 10px;
+}
+
+#register > form > button{
+  width: 100%;
+  margin: 0 16px;
+  margin-bottom: 10px;
+}
+
+.register-input > label {
+  display: block;
+  font-weight: 600;
+}
+.register-input > input {
+  padding: 5px 5px;
+  font-size: 16px;
+}
+
+.register-input {
+  padding-bottom: 5px;
+}
+
+#login {
+  margin-top: 16px;
+  border: 1px dashed black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-input > label{
+  display: block;
+  font-weight: 600;
+}
+
+.login-input > input{
+  display: block;
+  padding: 5px 5px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+button{
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: 22%;
+  padding: 5px;
+  background-color: #FCF7F8;
+}
